@@ -6,7 +6,7 @@ require "luci.model.uci".cursor()
 
 m = Map("msd_lite")
 m.title = translate("Multi Stream daemon Lite")
-m.description = translate("The lightweight version of Multi Stream daemon (msd) Program for organizing IP TV streaming on the network via HTTP.")
+m.description = translate("The lightweight version of Multi Stream daemon (msd) Program for organizing IPTV streaming on the network via HTTP.")
 
 m:section(SimpleSection).template  = "msd_lite/msd_lite_status"
 
